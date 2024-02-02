@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 100vh;
+  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -171,14 +171,18 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 200px;
   margin: auto 0;
-  
-  
+ 
 }
+.section__pic-container img {
 
-
+  height: 195px;
+  width: 195px;
+  border-radius: 100%;
+  margin:auto 0;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -201,20 +205,6 @@ section {
   font-size: 3rem;
   text-align: center;
 }
-
-/* CSS for smaller circular image */
-
-
-.section__pic-container img {
-  width: 70%; /* Ensures the image covers the entire circular container */
-  height: 70%; /* Maintains the aspect ratio of the image */
-  display: block; 
-  overflow: hidden;
-  border-radius: 100%; 
-  
-}
-
-
 
 #socials-container {
   display: flex;
@@ -282,29 +272,28 @@ section {
 
 #about {
   position: relative;
+  
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  height: 50%;
- 
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  width: 50%;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
-
 }
 
-
+.about-pic {
+  border-radius: 2rem;
+}
 
 .arrow {
   position: absolute;
@@ -323,14 +312,13 @@ section {
 }
 
 .section-container {
-  gap: 0rem;
+  gap: 4rem;
   height: 80%;
- 
 }
 
 .section__pic-container {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -362,18 +350,6 @@ section {
   justify-content: space-around;
 }
 
-.article-container3 img{
-  width: 100%;
-  height: 100%;
-}
-.article-container2 img{
-  width: 100%;
-  height: 100%;
-}
-.article-container1 img{
-  width: 100%;
-  height: 100%;
-}
 article {
   display: flex;
   width: 10rem;
@@ -401,7 +377,7 @@ article .icon {
   width: 90%;
   height: 90%;
 }
-.project-img 
+
 .project-title {
   margin: 1rem;
   color: black;
